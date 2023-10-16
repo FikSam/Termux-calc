@@ -7,9 +7,9 @@ operation = input("Enter + or -: ")
 
 if operation == "+":
   result = var1 + var2
-  print("Результат:", result)
+  print("Var1: ", result)
 elif operation == "-":
   result = var1 - var2
-  print("Результат:", result)
+  print("Var2: ", result)
 else:
-  print("Неподдерживаемая операция. Поддерживаются только + и -.")
+  print("Invalid operation")
