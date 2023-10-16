@@ -1,15 +1,12 @@
 
 print("= Termux Calculator =")
 
-var1 = float(input("var1: "))
-var2 = float(input("var2: ")) 
-operation = input("Enter + or -: ") 
-
+var1 = input("var1: ")
+var2 = input("var2: ")
+operation = input("+, - :")
 if operation == "+":
-  result = var1 + var2
-  print("Var1: ", result)
-elif operation == "-":
-  result = var1 - var2
-  print("Var2: ", result)
+  var1 += var2
+  print(var1)
 else:
-  print("Invalid operation")
+  var1 -= var2
+  print(var1)
