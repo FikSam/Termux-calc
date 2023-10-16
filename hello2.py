@@ -1,5 +1,5 @@
 
-print("Termux Calculator =•=")
+print("= Termux Calculator =")
 
 var1 = float(input("var1: "))
 var2 = float(input("var2: ")) 
